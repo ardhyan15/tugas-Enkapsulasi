@@ -1,13 +1,9 @@
 # Latihan 1
 
 # Buatlah kode program java untuk:
-#• Mendeklarasikan class Person, dengan
-atribut Nama, JenisKelamin, Umur dan
-lengkapi dengan access modifier.
+# • Mendeklarasikan class Person, dengan atribut Nama, JenisKelamin, Umur dan lengkapi dengan access modifier.
 
-# • Buatlah dua buah objek dari class Person
-bernama Anton dan Riko dan panggil
-method setter dan getter.
+# • Buatlah dua buah objek dari class Person bernama Anton dan Riko dan panggil method setter dan getter.
 
 
 
@@ -19,12 +15,12 @@ method setter dan getter.
 
 
 
-class Person {
+    class Person {
     // Atribut private
     private String nama;
     private String jenisKelamin;
     private int umur;
-
+    
     // Constructor untuk inisialisasi Person
     public Person(String nama, String jenisKelamin, int umur) {
         this.nama = nama;
@@ -58,9 +54,9 @@ class Person {
     public int getUmur() {
         return this.umur;
     }
-}
+    }
 
-public class Main {
+    public class Main {
     public static void main(String[] args) {
         // Membuat objek Anton dan Riko
         Person anton = new Person("Anton", "Laki-laki", 25);
@@ -92,7 +88,7 @@ public class Main {
         System.out.println("Nama: " + riko.getNama());
         System.out.println("Umur: " + riko.getUmur());
     }
-}
+    }
 
 ![code2](https://github.com/user-attachments/assets/3107f861-e734-4d6a-aa38-5821d98d1948)
 ![Screenshot (151)](https://github.com/user-attachments/assets/a7327cd3-6772-489c-ac77-bfcccec6e620)
