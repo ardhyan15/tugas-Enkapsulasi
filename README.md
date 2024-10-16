@@ -1,10 +1,11 @@
 # Latihan 1
 
 # Buatlah kode program java untuk:
-• Mendeklarasikan class Person, dengan
+#• Mendeklarasikan class Person, dengan
 atribut Nama, JenisKelamin, Umur dan
 lengkapi dengan access modifier.
-• Buatlah dua buah objek dari class Person
+
+# • Buatlah dua buah objek dari class Person
 bernama Anton dan Riko dan panggil
 method setter dan getter.
 
@@ -92,3 +93,9 @@ public class Main {
         System.out.println("Umur: " + riko.getUmur());
     }
 }
+
+![code2](https://github.com/user-attachments/assets/3107f861-e734-4d6a-aa38-5821d98d1948)
+![Screenshot (151)](https://github.com/user-attachments/assets/a7327cd3-6772-489c-ac77-bfcccec6e620)
+
+
+
